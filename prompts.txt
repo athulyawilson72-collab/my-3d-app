@@ -1,0 +1,10 @@
+1. a simple cube
+2. a hollow cylinder
+3. a table with 4 legs
+4. a small house
+5. a sphere on top of a cube
+6. a gear with 10 teeth
+7. a pyramid shape
+8. a rectangular box
+9. a cone shape
+10. two cylinders side by side

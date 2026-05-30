@@ -1,0 +1,16 @@
+prompt,shape_type,complexity,label
+a cube 10mm,cube,simple,parametric
+a cylinder 20mm tall,cylinder,simple,parametric
+a sphere with radius 5,sphere,simple,parametric
+a table with 4 legs,table,medium,parametric
+a chair with armrests,chair,medium,parametric
+a house with a roof,house,medium,parametric
+a gear with 12 teeth,gear,complex,parametric
+a vase with curved walls,vase,complex,ai_generator
+a dragon figurine,organic,complex,ai_generator
+a human face sculpture,organic,complex,ai_generator
+a box 30x20x10mm,box,simple,parametric
+a cone shape,cone,simple,parametric
+a spiral staircase,staircase,complex,ai_generator
+a tree with branches,tree,complex,ai_generator
+a car body,vehicle,complex,ai_generator
