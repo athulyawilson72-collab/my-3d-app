@@ -1,13 +1,13 @@
 """
 Week 2 - Automated Test Script
 Person C (Athulya) - 3D Model Generator
-Base URL: http://34.179.225.173:8000
+Base URL: https://3d-model-generator-production.up.railway.app
 """
 
 import requests
 import json
 
-BASE_URL = "http://34.179.225.173:8000"
+BASE_URL = "https://3d-model-generator-production.up.railway.app"
 
 passed = 0
 failed = 0
@@ -94,7 +94,7 @@ except Exception as e:
     failed += 1
 
 try:
-    r = requests.post(f"{BASE_URL}/refine", json={"prompt": "make it bigger"}, timeout=15)
+    r = requests.post(f"{BASE_URL}/refine", json={"prompt": "make it bigger", "previous_scad": "cube(5);", "instruction": "make it bigger"}, timeout=15)
     test("Step 2: Refine model", r.status_code == 200)
 except Exception as e:
     print(f"❌ FAIL — Refine ({e})")
